@@ -1,0 +1,61 @@
+.banner>img {
+    width: 100%;
+}
+
+.navbar_color {
+    background-color: black !important;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    background: url(../img/divisor.png) no-repeat left;
+
+}
+
+body {
+    background: url(../img/Fundo_estrelas.png) repeat;
+}
+
+.card_destaque {
+    background-color: white;
+}
+
+.imagem_destaque {
+    width: 15rem;
+}
+
+.imagem_destaque > img {
+    width: 100%;
+}
+
+.card {
+    height: 19rem;
+}
+.row {
+    margin-top: 1vh;
+}
+
+.margin {
+    margin-top: 1vh;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    margin-top: 1vh;
+    background-color: black;
+    padding: 1rem;
+}
+
+.rodape_conteudo {
+    width: 20vh;
+    margin: 0 auto;
+    color: red;
+
+}

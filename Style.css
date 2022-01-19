@@ -1,0 +1,61 @@
+.banner>img {
+    width: 100%;
+}
+
+.navbar_color {
+    background-color: black !important;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: rgb(200, 117, 221);
+    background: url(img/divisor.png) no-repeat left;
+
+}
+
+body {
+    background: url(img/background.png) repeat;
+}
+
+.card_destaque {
+    background-color: white;
+}
+
+.imagem_destaque {
+    width: 15rem;
+}
+
+.imagem_destaque > img {
+    width: 100%;
+}
+
+.card {
+    height: 19rem;
+}
+.row {
+    margin-top: 1vh;
+}
+
+.margin {
+    margin-top: 1vh;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    margin-top: 1vh;
+    background-color: black;
+    padding: 1rem;
+}
+
+.rodape_conteudo {
+    width: 70vh;
+    margin: 0 auto;
+    color: rgb(117, 113, 113);
+
+}
